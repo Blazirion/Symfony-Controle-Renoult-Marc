@@ -14,6 +14,7 @@
         {% endblock %}
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {{ include('nav.html.twig') }}
+        {% block body %} Hello Base ! Hello Home !{% endblock %}
     </body>
 </html>
